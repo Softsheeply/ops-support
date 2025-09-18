@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Other Peoples Stuff – Account Deletion & Data Requests</title>
+  <style>
+    :root{
+      --bg:#0fb0b5;
+      --card:#ffffff;
+      --text:#0f2b33;
+      --muted:#15555d;
+      --accent:#ff6d4a;
+      --ok:#0a8f5c;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      color:var(--text);
+      background:linear-gradient(145deg, #0fb0b5 0%, #11a3a7 100%);
+    }
+    .wrap{
+      max-width:960px;
+      margin:0 auto;
+      padding:32px 20px 60px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:16px;
+      color:white;
+      margin-bottom:20px;
+    }
+    .logo{
+      width:52px;height:52px;border-radius:12px;background:#ffd66f;display:grid;place-items:center;
+      box-shadow:0 6px 18px rgba(0,0,0,.15);
+      font-weight:800;color:#2a2a2a;
+    }
+    h1{font-size:clamp(22px,4.5vw,36px);line-height:1.15;margin:0}
+    .card{
+      background:var(--card);
+      border-radius:18px;
+      box-shadow:0 10px 30px rgba(0,0,0,.15);
+      padding:22px;
+      margin:16px 0;
+    }
+    h2{margin:0 0 12px 0;font-size:20px}
+    p{margin:8px 0;color:var(--muted)}
+    li{margin:6px 0}
+    code{background:#f4f7f8;padding:2px 6px;border-radius:6px}
+    .cta{
+      display:inline-block;
+      padding:12px 18px;
+      background:var(--accent);
+      color:white;
+      text-decoration:none;
+      border-radius:12px;
+      font-weight:600;
+      box-shadow:0 6px 16px rgba(0,0,0,.18);
+      transition:transform .05s ease;
+    }
+    .cta:active{transform:translateY(1px)}
+    .grid{display:grid;gap:16px}
+    @media(min-width:800px){ .grid{grid-template-columns:1fr 1fr} }
+    footer{color:#eaffff80;font-size:13px;margin-top:24px}
+    .pill{display:inline-block;background:#00000015;color:#193a3f;border-radius:999px;padding:6px 10px;font-size:12px;margin-right:6px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">OPS</div>
+      <div>
+        <h1>Other Peoples Stuff — Account Deletion & Data Requests</h1>
+        <div>
+          <span class="pill">Support: <a style="color:#fff" href="mailto:softsheepapps@gmail.com">softsheepapps@gmail.com</a></span>
+        </div>
+      </div>
+    </header>
+
+    <section class="card">
+      <h2>Request account deletion</h2>
+      <p>If you’d like to permanently delete your account and associated data for <strong>Other Peoples Stuff</strong>, email us using the button below. You don’t need to be signed in to make this request.</p>
+      <p><a class="cta" href="mailto:softsheepapps@gmail.com?subject=Account%20Deletion%20Request%20-%20Other%20Peoples%20Stuff&body=Please%20delete%20my%20account.%0A%0ARegistered%20email%3A%20__________%0AUser%20ID%20(if%20known)%3A%20__________%0AAdditional%20notes%3A%20__________">Email deletion request</a></p>
+      <p>We’ll verify ownership using your registered email address and then proceed with deletion.</p>
+    </section>
+
+    <section class="card">
+      <h2>What gets deleted</h2>
+      <ul>
+        <li>Profile data (name, email, avatar).</li>
+        <li>Your posts, comments, likes, and saved items.</li>
+        <li>App preferences stored on our servers.</li>
+      </ul>
+      <p>Limited records may be retained where legally required (e.g., payment receipts if you ever purchased add-ons). These are not used for any other purpose and are purged once no longer required.</p>
+    </section>
+
+    <section class="card grid">
+      <div>
+        <h2>Data access / correction</h2>
+        <p>You can request a copy of your data or ask us to correct it by emailing <a href="mailto:softsheepapps@gmail.com">softsheepapps@gmail.com</a>.</p>
+      </div>
+      <div>
+        <h2>Encryption in transit</h2>
+        <p>All data sent between the app and our servers is protected with HTTPS (TLS).</p>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:softsheepapps@gmail.com">softsheepapps@gmail.com</a></p>
+    </section>
+
+    <footer>
+      © 2025 Other Peoples Stuff
+    </footer>
+  </div>
+</body>
+</html>
